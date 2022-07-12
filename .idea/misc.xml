@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/The Gosa Design/Downloads/Telegram Desktop/JsonWriterDev/JsonWriterDev/app/src/main/res/layout-land/activity_main.xml" value="0.5726795096322241" />
+        <entry key="..\:/Users/The Gosa Design/Downloads/Telegram Desktop/JsonWriterDev/JsonWriterDev/app/src/main/res/layout/_galaxythemes_add.xml" value="0.5" />
+        <entry key="..\:/Users/The Gosa Design/Downloads/Telegram Desktop/JsonWriterDev/JsonWriterDev/app/src/main/res/layout/a_home_page.xml" value="0.4518743667679838" />
+        <entry key="..\:/Users/The Gosa Design/Downloads/Telegram Desktop/JsonWriterDev/JsonWriterDev/app/src/main/res/layout/activity_experement.xml" value="0.9203125" />
+        <entry key="..\:/Users/The Gosa Design/Downloads/Telegram Desktop/JsonWriterDev/JsonWriterDev/app/src/main/res/layout/activity_main.xml" value="0.4518743667679838" />
+        <entry key="..\:/Users/The Gosa Design/Downloads/Telegram Desktop/JsonWriterDev/JsonWriterDev/app/src/main/res/layout/activity_special_walls.xml" value="0.6317934782608695" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16_PREVIEW" project-jdk-name="Android API 30 Platform" project-jdk-type="Android SDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

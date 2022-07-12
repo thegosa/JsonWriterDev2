@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thegosa.jsonwriterdev">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JsonWriterDev">
+        <activity
+            android:name=".SpecialWalls"
+            android:exported="false" />
+        <activity
+            android:name=".homePage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".galaxythemes_add"
+            android:exported="true" />
+        <activity android:name=".add_themes" />
+        <activity android:name=".add_wallpapers" />
+        <activity android:name=".add_wallpapers_wallcraft" />
+        <activity android:name=".hw_themes" />
+        <activity android:name=".hw_themes_umd" />
+        <activity android:name=".hw_themes_sabur" />
+        <activity android:name=".add_unplash_wallpapers" />
+    </application>
+
+</manifest>
