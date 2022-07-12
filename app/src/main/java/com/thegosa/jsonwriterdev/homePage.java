@@ -16,25 +16,10 @@ public class homePage extends AppCompatActivity {
 
         Button theme = findViewById(R.id.button2);
         Button wall = findViewById(R.id.button3);
-        theme.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(homePage.this, add_themes.class));
-            }
-        });
-        wall.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(homePage.this, add_wallpapers.class));
-            }
-        });
+        theme.setOnClickListener(view -> startActivity(new Intent(homePage.this, add_themes.class)));
+        wall.setOnClickListener(view -> startActivity(new Intent(homePage.this, add_wallpapers.class)));
 
-        findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(homePage.this, add_wallpapers_wallcraft.class));
-            }
-        });
+        findViewById(R.id.button4).setOnClickListener(view -> startActivity(new Intent(homePage.this, add_wallpapers_wallcraft.class)));
 
         findViewById(R.id.button5).setOnClickListener(v3434 ->{
             startActivity(new Intent(homePage.this, hw_themes.class));
